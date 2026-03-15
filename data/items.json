@@ -1,0 +1,126 @@
+{
+  "items": [
+    {
+      "id": "delicate-pearl-necklace",
+      "name": "Delicate Pearl Necklace",
+      "category": "necklaces",
+      "description": "Handcrafted necklace featuring freshwater pearls on a delicate gold-filled chain",
+      "longDescription": "This elegant necklace showcases carefully selected freshwater pearls, each with its own unique luster and character. The pearls are wire-wrapped onto a delicate 14k gold-filled chain, creating a timeless piece that can be worn every day or for special occasions. The necklace is approximately 18 inches in length with a 2-inch extender.",
+      "price": "$85",
+      "image": "images/pearl-necklace.jpg",
+      "images": [
+        "images/pearl-necklace.jpg",
+        "images/pearl-necklace-detail.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": "hammered-silver-ring",
+      "name": "Hammered Silver Ring",
+      "category": "rings",
+      "description": "Textured sterling silver ring with an organic, hand-hammered finish",
+      "longDescription": "Each ring is individually hammered by hand, creating a unique texture that catches the light beautifully. Made from solid sterling silver, this ring has a comfortable fit and develops a lovely patina over time. Available in sizes 5-9. The band is approximately 3mm wide.",
+      "price": "$65",
+      "image": "images/silver-ring.jpg",
+      "images": [
+        "images/silver-ring.jpg",
+        "images/silver-ring-detail.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": "gold-hoop-earrings",
+      "name": "Gold Hoop Earrings",
+      "category": "earrings",
+      "description": "Classic handmade hoops in 14k gold fill with a modern minimalist design",
+      "longDescription": "These versatile hoops are handcrafted from 14k gold-filled wire, shaped and hammered for added strength and subtle texture. Perfect for everyday wear, they measure approximately 1 inch in diameter and are lightweight and comfortable. The earrings feature secure lever-back closures.",
+      "price": "$58",
+      "image": "images/gold-hoops.jpg",
+      "images": [
+        "images/gold-hoops.jpg",
+        "images/gold-hoops-worn.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": "moonstone-pendant",
+      "name": "Moonstone Pendant",
+      "category": "necklaces",
+      "description": "Luminous moonstone set in sterling silver on a delicate chain",
+      "longDescription": "This enchanting pendant features a natural moonstone with beautiful blue flash, bezel-set in sterling silver. The stone measures approximately 8x10mm and is suspended from an 18-inch sterling silver chain. Moonstone is believed to bring calm and balance, making this piece both beautiful and meaningful.",
+      "price": "$92",
+      "image": "images/moonstone-pendant.jpg",
+      "images": [
+        "images/moonstone-pendant.jpg",
+        "images/moonstone-detail.jpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": "twisted-copper-bracelet",
+      "name": "Twisted Copper Bracelet",
+      "category": "bracelets",
+      "description": "Rustic copper cuff with hand-twisted wire detailing",
+      "longDescription": "This bold cuff bracelet is crafted from pure copper wire that has been twisted and shaped by hand. The copper will develop a natural patina over time, or it can be polished to maintain its bright finish. The bracelet is adjustable and fits most wrist sizes. Copper is traditionally worn for its potential wellness properties.",
+      "price": "$45",
+      "image": "images/copper-bracelet.jpg",
+      "images": [
+        "images/copper-bracelet.jpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": "rose-quartz-studs",
+      "name": "Rose Quartz Studs",
+      "category": "earrings",
+      "description": "Soft pink rose quartz stones in simple sterling silver settings",
+      "longDescription": "These sweet studs feature natural rose quartz stones, each measuring approximately 6mm. The stones are set in sterling silver with sterling silver posts and backs. Rose quartz is known as the stone of love and compassion, making these earrings a thoughtful gift or a gentle addition to your collection.",
+      "price": "$42",
+      "image": "images/rose-quartz-studs.jpg",
+      "images": [
+        "images/rose-quartz-studs.jpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": "layered-chain-necklace",
+      "name": "Layered Chain Necklace",
+      "category": "necklaces",
+      "description": "Delicate two-strand necklace in mixed metals",
+      "longDescription": "This modern layered necklace features two different chains - one in 14k gold fill and one in sterling silver - creating an effortless mixed-metal look. The chains are graduated in length (16 and 18 inches) to create perfect layering. Each chain has individual closures for versatility.",
+      "price": "$78",
+      "image": "images/layered-necklace.jpg",
+      "images": [
+        "images/layered-necklace.jpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": "turquoise-ring",
+      "name": "Turquoise Statement Ring",
+      "category": "rings",
+      "description": "Bold sterling silver ring with natural turquoise stone",
+      "longDescription": "This eye-catching ring features a natural turquoise stone measuring approximately 10x14mm, set in a handmade sterling silver bezel. The wide silver band (6mm) provides a substantial, comfortable fit. Each turquoise stone has unique matrix patterns, making every ring one-of-a-kind. Available in sizes 6-9.",
+      "price": "$110",
+      "image": "images/turquoise-ring.jpg",
+      "images": [
+        "images/turquoise-ring.jpg",
+        "images/turquoise-ring-detail.jpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": "infinity-bracelet",
+      "name": "Infinity Symbol Bracelet",
+      "category": "bracelets",
+      "description": "Delicate gold-filled bracelet with hand-formed infinity charm",
+      "longDescription": "A simple yet meaningful bracelet featuring a hand-formed infinity symbol charm on a delicate 14k gold-filled chain. The bracelet measures 7 inches with a 1-inch extender to fit most wrist sizes. The infinity charm is approximately 15mm wide. Perfect for daily wear and as a symbol of eternal love or friendship.",
+      "price": "$52",
+      "image": "images/infinity-bracelet.jpg",
+      "images": [
+        "images/infinity-bracelet.jpg"
+      ],
+      "featured": false
+    }
+  ]
+}
