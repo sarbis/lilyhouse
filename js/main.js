@@ -3,7 +3,17 @@
 // Global variables
 let allItems = [];
 let translations = {};
-let currentLang = localStorage.getItem('language') || 'en';
+let currentLang = getLanguageFromURL() || localStorage.getItem('language') || 'en';
+
+// Get language from URL parameter
+function getLanguageFromURL() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const langParam = urlParams.get('lang');
+  if (langParam && (langParam === 'en' || langParam === 'lv')) {
+    return langParam;
+  }
+  return null;
+}
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', function() {
@@ -29,6 +39,10 @@ async function initLanguage() {
   try {
     const response = await fetch('data/translations.json');
     translations = await response.json();
+    
+    // Save the current language to localStorage for future visits
+    localStorage.setItem('language', currentLang);
+    
     updateLanguage(currentLang);
     initLanguageSwitcher();
   } catch (error) {
@@ -52,6 +66,12 @@ function initLanguageSwitcher() {
 function switchLanguage(lang) {
   currentLang = lang;
   localStorage.setItem('language', lang);
+  
+  // Update URL parameter without reloading the page
+  const url = new URL(window.location);
+  url.searchParams.set('lang', lang);
+  window.history.replaceState({}, '', url);
+  
   updateLanguage(lang);
   updateActiveLangButton();
   
