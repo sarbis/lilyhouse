@@ -2,9 +2,12 @@
 
 // Global variables
 let allItems = [];
+let translations = {};
+let currentLang = localStorage.getItem('language') || 'en';
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', function() {
+  initLanguage();
   initMobileMenu();
   loadItems();
   initModals();
@@ -20,6 +23,96 @@ document.addEventListener('DOMContentLoaded', function() {
     initItemPage();
   }
 });
+
+// Language functionality
+async function initLanguage() {
+  try {
+    const response = await fetch('data/translations.json');
+    translations = await response.json();
+    updateLanguage(currentLang);
+    initLanguageSwitcher();
+  } catch (error) {
+    console.error('Error loading translations:', error);
+  }
+}
+
+function initLanguageSwitcher() {
+  const langBtns = document.querySelectorAll('.lang-btn');
+  langBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      const lang = this.dataset.lang;
+      switchLanguage(lang);
+    });
+  });
+  
+  // Update active button
+  updateActiveLangButton();
+}
+
+function switchLanguage(lang) {
+  currentLang = lang;
+  localStorage.setItem('language', lang);
+  updateLanguage(lang);
+  updateActiveLangButton();
+  
+  // Reload collection if on collection page
+  const currentPage = getCurrentPage();
+  if (currentPage === 'collection' && allItems.length > 0) {
+    const category = document.querySelector('.filter-btn.active')?.dataset.category || 'all';
+    const filteredItems = category === 'all' ? allItems : allItems.filter(item => item.category === category);
+    renderCollection(document.getElementById('collection-items'), filteredItems);
+  }
+}
+
+function updateActiveLangButton() {
+  const langBtns = document.querySelectorAll('.lang-btn');
+  langBtns.forEach(btn => {
+    if (btn.dataset.lang === currentLang) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+}
+
+function updateLanguage(lang) {
+  const t = translations[lang];
+  if (!t) return;
+  
+  // Update all elements with data-translate attribute
+  document.querySelectorAll('[data-translate]').forEach(element => {
+    const key = element.dataset.translate;
+    const keys = key.split('.');
+    let value = t;
+    
+    keys.forEach(k => {
+      value = value?.[k];
+    });
+    
+    if (value) {
+      if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+        if (element.placeholder !== undefined && element.dataset.translateAttr === 'placeholder') {
+          element.placeholder = value;
+        } else {
+          element.value = value;
+        }
+      } else {
+        element.innerHTML = value;
+      }
+    }
+  });
+}
+
+function t(key) {
+  const keys = key.split('.');
+  let value = translations[currentLang];
+  
+  keys.forEach(k => {
+    value = value?.[k];
+  });
+  
+  return value || key;
+}
 
 // Get current page name
 function getCurrentPage() {
@@ -80,6 +173,9 @@ function renderFeaturedItems(container) {
   
   // Add click handlers
   addProductCardHandlers(container);
+  
+  // Update translations for dynamically added content
+  updateLanguage(currentLang);
 }
 
 // Initialize collection page
@@ -104,6 +200,9 @@ function renderCollection(container, items) {
   
   // Add click handlers
   addProductCardHandlers(container);
+  
+  // Update translations for dynamically added content
+  updateLanguage(currentLang);
 }
 
 // Create product card HTML
@@ -122,7 +221,7 @@ function createProductCard(item) {
         <h3 class="product-name">${item.name}</h3>
         <p class="product-description">${item.description}</p>
         ${item.price ? `<div class="product-price">${item.price}</div>` : ''}
-        <a href="item.html?id=${item.id}" class="btn btn-secondary">View Item</a>
+        <a href="item.html?id=${item.id}" class="btn btn-secondary" data-translate="home.view_details">View Details</a>
       </div>
     </div>
   `;

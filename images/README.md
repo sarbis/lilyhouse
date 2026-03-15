@@ -1,8 +1,13 @@
 # Images Folder
 
-Place all your jewelry images in this folder.
+This folder is organized into subfolders:
 
-## Image Guidelines
+## Folder Structure
+
+- **`site/`** - Technical site images (logo, favicon, icons) - Do not modify
+- **`products/`** - Your jewelry product images - Add your photos here
+
+## Image Guidelines for Product Photos
 
 ### File Format
 - Use JPG for photographs
