@@ -17,10 +17,10 @@ function getLanguageFromURL() {
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', async function() {
-  initLanguage();
-  initMobileMenu();
+  await initLanguage();
+  await initMobileMenu();
   await loadItems(); // Wait for items to load
-  initModals();
+  await initModals();
   
   // Check which page we're on and initialize accordingly
   const currentPage = getCurrentPage();
