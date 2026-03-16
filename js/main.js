@@ -368,7 +368,7 @@ function renderItemDetail(item) {
         <div class="item-description">
           <p>${longDescription || description}</p>
         </div>
-        <button class="btn" data-translate="item.reserve" onclick="openReservationModal('${item.id}', '${name}')">Order</button>
+        <button class="btn" onclick="openReservationModal('${item.id}', '${name}')">${t('item.modal_title')}</button>
         <div class="mt-2">
           <a href="collection.html" class="btn btn-secondary">← Back to Collection</a>
         </div>
