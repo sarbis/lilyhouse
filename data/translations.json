@@ -30,7 +30,7 @@
       "filter_category4": "Fairy"
     },
     "item": {
-      "reserve": "Reserve This Piece",
+      "reserve": "Order",
       "description": "Description",
       "details": "Details",
       "care_title": "Care Instructions",
@@ -179,7 +179,7 @@
       "filter_category4": "Fairy"
     },
     "item": {
-      "reserve": "Rezervēt šo izstrādājumu",
+      "reserve": "Pasūtīt",
       "description": "Apraksts",
       "details": "Detaļas",
       "care_title": "Kopšanas norādījumi",
