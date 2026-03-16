@@ -4,10 +4,10 @@
       "id": "delicate-pearl-necklace",
       "category": "category1",
       "price": "$85",
-      "image": "images/products/pearl-necklace.jpg",
+      "image": "images/products/daisy-lotus1.jpg",
       "images": [
-        "images/products/pearl-necklace.jpg",
-        "images/products/pearl-necklace-detail.jpg"
+        "images/products/daisy-lotus1.jpg",
+        "images/products/daisy-lotus2.jpg"
       ],
       "featured": true
     },
@@ -15,10 +15,10 @@
       "id": "hammered-silver-ring",
       "category": "category2",
       "price": "$65",
-      "image": "images/products/silver-ring.jpg",
+      "image": "images/products/daisy-lotus1.jpg",
       "images": [
-        "images/products/silver-ring.jpg",
-        "images/products/silver-ring-detail.jpg"
+        "images/products/daisy-lotus1.jpg",
+        "images/products/daisy-lotus2.jpg"
       ],
       "featured": true
     },
