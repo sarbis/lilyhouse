@@ -16,10 +16,10 @@ function getLanguageFromURL() {
 }
 
 // Initialize the application
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
   initLanguage();
   initMobileMenu();
-  loadItems();
+  await loadItems(); // Wait for items to load
   initModals();
   
   // Check which page we're on and initialize accordingly
@@ -75,12 +75,26 @@ function switchLanguage(lang) {
   updateLanguage(lang);
   updateActiveLangButton();
   
-  // Reload collection if on collection page
+  // Re-render content based on current page
   const currentPage = getCurrentPage();
   if (currentPage === 'collection' && allItems.length > 0) {
     const category = document.querySelector('.filter-btn.active')?.dataset.category || 'all';
     const filteredItems = category === 'all' ? allItems : allItems.filter(item => item.category === category);
     renderCollection(document.getElementById('collection-items'), filteredItems);
+  } else if (currentPage === 'item' && allItems.length > 0) {
+    // Re-render item detail page
+    const urlParams = new URLSearchParams(window.location.search);
+    const itemId = urlParams.get('id');
+    const item = allItems.find(i => i.id === itemId);
+    if (item) {
+      renderItemDetail(item);
+    }
+  } else if (currentPage === 'index' && allItems.length > 0) {
+    // Re-render featured items on home page
+    const featuredContainer = document.getElementById('featured-items');
+    if (featuredContainer) {
+      renderFeaturedItems(featuredContainer);
+    }
   }
 }
 
@@ -132,6 +146,11 @@ function t(key) {
   });
   
   return value || key;
+}
+
+// Helper function to get translated item properties
+function getItemTranslation(itemId, property) {
+  return t(`items.${itemId}.${property}`) || '';
 }
 
 // Get current page name
@@ -227,8 +246,12 @@ function renderCollection(container, items) {
 
 // Create product card HTML
 function createProductCard(item) {
+  const name = getItemTranslation(item.id, 'name');
+  const description = getItemTranslation(item.id, 'description');
+  const categoryName = t(`collection.filter_${item.category}`);
+  
   const imageHtml = item.image 
-    ? `<img src="${item.image}" alt="${item.name}" onerror="this.parentElement.innerHTML='<div class=\\'product-image-placeholder\\'>♦</div>'">` 
+    ? `<img src="${item.image}" alt="${name}" onerror="this.parentElement.innerHTML='<div class=\\'product-image-placeholder\\'>♦</div>'">` 
     : '<div class="product-image-placeholder">♦</div>';
   
   return `
@@ -237,9 +260,9 @@ function createProductCard(item) {
         ${imageHtml}
       </div>
       <div class="product-info">
-        <div class="product-category">${item.category}</div>
-        <h3 class="product-name">${item.name}</h3>
-        <p class="product-description">${item.description}</p>
+        <div class="product-category">${categoryName}</div>
+        <h3 class="product-name">${name}</h3>
+        <p class="product-description">${description}</p>
         ${item.price ? `<div class="product-price">${item.price}</div>` : ''}
         <a href="item.html?id=${item.id}" class="btn btn-secondary" data-translate="home.view_details">View Details</a>
       </div>
@@ -309,17 +332,21 @@ function initItemPage() {
 // Render item detail page
 function renderItemDetail(item) {
   const container = document.querySelector('.item-detail .container');
+  const name = getItemTranslation(item.id, 'name');
+  const description = getItemTranslation(item.id, 'description');
+  const longDescription = getItemTranslation(item.id, 'longDescription');
+  const categoryName = t(`collection.filter_${item.category}`);
   
   const images = item.images && item.images.length > 0 ? item.images : [item.image];
   const mainImageHtml = images[0] 
-    ? `<img src="${images[0]}" alt="${item.name}" onerror="this.parentElement.innerHTML='<div class=\\'product-image-placeholder\\'>♦</div>'">` 
+    ? `<img src="${images[0]}" alt="${name}" onerror="this.parentElement.innerHTML='<div class=\\'product-image-placeholder\\'>♦</div>'">` 
     : '<div class="product-image-placeholder">♦</div>';
   
   const thumbnailsHtml = images.length > 1 
     ? `<div class="thumbnail-images">
         ${images.map((img, index) => `
           <div class="thumbnail ${index === 0 ? 'active' : ''}" data-image="${img}">
-            <img src="${img}" alt="${item.name}" onerror="this.parentElement.innerHTML='<div class=\\'product-image-placeholder\\'>♦</div>'">
+            <img src="${img}" alt="${name}" onerror="this.parentElement.innerHTML='<div class=\\'product-image-placeholder\\'>♦</div>'">
           </div>
         `).join('')}
       </div>` 
@@ -335,13 +362,13 @@ function renderItemDetail(item) {
       </div>
       
       <div class="item-info-detail">
-        <div class="item-category">${item.category}</div>
-        <h1>${item.name}</h1>
+        <div class="item-category">${categoryName}</div>
+        <h1>${name}</h1>
         ${item.price ? `<div class="item-price">${item.price}</div>` : ''}
         <div class="item-description">
-          <p>${item.longDescription || item.description}</p>
+          <p>${longDescription || description}</p>
         </div>
-        <button class="btn" onclick="openReservationModal('${item.id}', '${item.name}')">
+        <button class="btn" onclick="openReservationModal('${item.id}', '${name}')">
           Reserve This Item
         </button>
         <div class="mt-2">

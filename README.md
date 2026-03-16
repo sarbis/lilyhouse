@@ -61,7 +61,7 @@ Edit `data/items.json` to add your jewelry items. Each item should follow this s
 {
   "id": "unique-item-id",
   "name": "Item Name",
-  "category": "necklaces",
+  "category": "category1",
   "description": "Short description for gallery",
   "longDescription": "Detailed description for item page",
   "price": "$99",
@@ -77,7 +77,7 @@ Edit `data/items.json` to add your jewelry items. Each item should follow this s
 **Field explanations:**
 - `id`: Unique identifier (use lowercase with hyphens)
 - `name`: Display name of the item
-- `category`: One of: `necklaces`, `rings`, `earrings`, `bracelets`
+- `category`: One of: `category1`, `category2`, `category3`, `category4`
 - `description`: Brief description (1-2 sentences)
 - `longDescription`: Full description for detail page
 - `price`: Price as string (e.g., "$85" or "€75")
