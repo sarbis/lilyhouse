@@ -3,7 +3,7 @@
 // Global variables
 let allItems = [];
 let translations = {};
-let currentLang = getLanguageFromURL() || localStorage.getItem('language') || 'en';
+let currentLang = getLanguageFromURL() || localStorage.getItem('language') || 'lv';
 
 // Get language from URL parameter
 function getLanguageFromURL() {
