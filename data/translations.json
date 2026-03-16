@@ -31,6 +31,7 @@
     },
     "item": {
       "reserve": "Order",
+      "back_to_collection": "Back to Collection",
       "description": "Description",
       "details": "Details",
       "care_title": "Care Instructions",
@@ -180,6 +181,7 @@
     },
     "item": {
       "reserve": "Pasūtīt",
+      "back_to_collection": "Atpakaļ uz kolekciju",
       "description": "Apraksts",
       "details": "Detaļas",
       "care_title": "Kopšanas norādījumi",

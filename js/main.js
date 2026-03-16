@@ -370,7 +370,7 @@ function renderItemDetail(item) {
         </div>
         <button class="btn" onclick="openReservationModal('${item.id}', '${name}')">${t('item.reserve')}</button>
         <div class="mt-2">
-          <a href="collection.html" class="btn btn-secondary">← Back to Collection</a>
+          <a href="collection.html" class="btn btn-secondary">← ${t('item.back_to_collection')}</a>
         </div>
       </div>
     </div>
