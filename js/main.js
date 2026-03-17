@@ -78,7 +78,8 @@ function switchLanguage(lang) {
   // Re-render content based on current page
   const currentPage = getCurrentPage();
   if (currentPage === 'collection' && allItems.length > 0) {
-    const category = document.querySelector('.filter-btn.active')?.dataset.category || 'all';
+    const urlParams = new URLSearchParams(window.location.search);
+    const category = urlParams.get('category') || 'all';
     const filteredItems = category === 'all' ? allItems : allItems.filter(item => item.category === category);
     renderCollection(document.getElementById('collection-items'), filteredItems);
   } else if (currentPage === 'item' && allItems.length > 0) {
@@ -89,13 +90,14 @@ function switchLanguage(lang) {
     if (item) {
       renderItemDetail(item);
     }
-  } else if (currentPage === 'index' && allItems.length > 0) {
-    // Re-render featured items on home page
-    const featuredContainer = document.getElementById('featured-items');
-    if (featuredContainer) {
-      renderFeaturedItems(featuredContainer);
-    }
   }
+  // else if (currentPage === 'index' && allItems.length > 0) {
+  //   // Re-render featured items on home page
+  //   const featuredContainer = document.getElementById('featured-items');
+  //   if (featuredContainer) {
+  //     renderFeaturedItems(featuredContainer);
+  //   }
+  // }
 }
 
 function updateActiveLangButton() {
@@ -197,16 +199,16 @@ async function loadItems() {
 
 // Initialize home page
 function initHomePage() {
-  const featuredContainer = document.getElementById('featured-items');
-  if (featuredContainer && allItems.length > 0) {
-    renderFeaturedItems(featuredContainer);
-  }
+  // const featuredContainer = document.getElementById('featured-items');
+  // if (featuredContainer && allItems.length > 0) {
+  //   renderFeaturedItems(featuredContainer);
+  // }
 }
 
 // Render featured items on home page
 function renderFeaturedItems(container) {
   const featuredItems = allItems.filter(item => item.featured);
-  const itemsToShow = featuredItems.slice(0, 3);
+  const itemsToShow = featuredItems.slice(0, 1);
   
   container.innerHTML = itemsToShow.map(item => createProductCard(item)).join('');
   
@@ -220,12 +222,22 @@ function renderFeaturedItems(container) {
 // Initialize collection page
 function initCollectionPage() {
   const collectionContainer = document.getElementById('collection-items');
+  
+  // Get category from URL parameter
+  const urlParams = new URLSearchParams(window.location.search);
+  const categoryParam = urlParams.get('category') || 'all';
+  
   if (collectionContainer && allItems.length > 0) {
-    renderCollection(collectionContainer, allItems);
+    // Filter items based on URL parameter
+    const filteredItems = categoryParam === 'all' 
+      ? allItems 
+      : allItems.filter(item => item.category === categoryParam);
+    
+    renderCollection(collectionContainer, filteredItems);
   }
   
   // Initialize category filter if it exists
-  initCategoryFilter();
+  initCategoryFilter(categoryParam);
 }
 
 // Render collection
@@ -286,11 +298,20 @@ function addProductCardHandlers(container) {
 }
 
 // Initialize category filter
-function initCategoryFilter() {
+function initCategoryFilter(initialCategory = 'all') {
   const filterBtns = document.querySelectorAll('.filter-btn');
   const collectionContainer = document.getElementById('collection-items');
   
   if (filterBtns.length === 0) return;
+  
+  // Set active button based on URL parameter
+  filterBtns.forEach(btn => {
+    if (btn.dataset.category === initialCategory) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
   
   filterBtns.forEach(btn => {
     btn.addEventListener('click', function() {
@@ -303,6 +324,15 @@ function initCategoryFilter() {
       const filteredItems = category === 'all' 
         ? allItems 
         : allItems.filter(item => item.category === category);
+      
+      // Update URL parameter
+      const url = new URL(window.location);
+      if (category === 'all') {
+        url.searchParams.delete('category');
+      } else {
+        url.searchParams.set('category', category);
+      }
+      window.history.pushState({}, '', url);
       
       renderCollection(collectionContainer, filteredItems);
     });

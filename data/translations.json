@@ -2,14 +2,14 @@
   "en": {
     "nav": {
       "home": "Home",
-      "collection": "Collection",
+      "collection": "Jewelry",
       "about": "About",
       "contact": "Contact"
     },
     "home": {
       "hero_title": "Welcome To Lilyhouse",
       "hero_subtitle": "We make dreamy jewelry for every moment",
-      "hero_cta": "Explore Collection",
+      "hero_cta": "Explore Jewelry",
       "featured_title": "Garden Bunny Collection",
       "featured_subtitle": "Explore the new spring collection",
       "view_details": "View Details",
@@ -18,10 +18,12 @@
       "about_cta": "Learn More",
       "cta_title": "Ready to Find Your Perfect Piece?",
       "cta_subtitle": "Browse our collection or get in touch to commission a custom design",
-      "cta_button": "View Collection"
+      "cta_button": "View Collection",
+      "social_title": "Follow Our Journey",
+      "social_subtitle": "See our latest creations and behind-the-scenes moments"
     },
     "collection": {
-      "title": "Our Collection",
+      "title": "Our Collections",
       "subtitle": "Handcrafted jewelry pieces, each unique and made with love",
       "filter_all": "All",
       "filter_category1": "Garden Bunny",
@@ -99,7 +101,7 @@
       "links_title": "Quick Links",
       "contact_title": "Contact",
       "email_label": "Email:",
-      "copyright": "© 2026 Lilyhouse. All rights reserved. Handcrafted with ♡"
+      "copyright": "© 2026 Lilyhouse. Handcrafted with ♡"
     },
     "items": {
       "delicate-pearl-necklace": {
@@ -152,14 +154,14 @@
   "lv": {
     "nav": {
       "home": "Sākums",
-      "collection": "Kolekcija",
+      "collection": "Rotaslietas",
       "about": "Par mums",
       "contact": "Kontakti"
     },
     "home": {
       "hero_title": "Laipni Lūgti Lilyhouse",
       "hero_subtitle": "Mēs radām sapņainas rotaslietas katram mirklim",
-      "hero_cta": "Apskatīt kolekciju",
+      "hero_cta": "Apskatīt rotaslietas",
       "featured_title": "Garden Bunny kolekcija",
       "featured_subtitle": "Apskati jauno pavasara kolekciju",
       "view_details": "Skatīt detaļas",
@@ -168,10 +170,12 @@
       "about_cta": "Uzzināt vairāk",
       "cta_title": "Gatavs atrast savu perfekto izstrādājumu?",
       "cta_subtitle": "Pārlūkojiet mūsu kolekciju vai sazinieties, lai pasūtītu pielāgotu dizainu",
-      "cta_button": "Skatīt kolekciju"
+      "cta_button": "Skatīt kolekciju",
+      "social_title": "Sekojiet mums",
+      "social_subtitle": "Apskatiet mūsu jaunākos darbus un piedzīvojumus"
     },
     "collection": {
-      "title": "Mūsu kolekcija",
+      "title": "Mūsu kolekcijas",
       "subtitle": "Rokdarbu juvelierizstrādājumi, katrs unikāls un radīts ar mīlestību",
       "filter_all": "Visi",
       "filter_category1": "Garden Bunny",
@@ -249,7 +253,7 @@
       "links_title": "Ātrās saites",
       "contact_title": "Kontakti",
       "email_label": "E-pasts:",
-      "copyright": "© 2026 Lilyhouse. Visas tiesības aizsargātas. Izgatavots ar ♡"
+      "copyright": "© 2026 Lilyhouse. Izgatavots ar ♡"
     },
     "items": {
       "delicate-pearl-necklace": {
