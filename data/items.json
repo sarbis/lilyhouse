@@ -3,7 +3,7 @@
     {
       "id": "delicate-pearl-necklace",
       "category": "category1",
-      "price": "$85",
+      "price": "$3",
       "image": "images/products/daisy-lotus1.jpg",
       "images": [
         "images/products/daisy-lotus1.jpg",
@@ -14,7 +14,7 @@
     {
       "id": "hammered-silver-ring",
       "category": "category2",
-      "price": "$65",
+      "price": "$3",
       "image": "images/products/daisy-lotus1.jpg",
       "images": [
         "images/products/daisy-lotus1.jpg",
@@ -25,7 +25,7 @@
     {
       "id": "gold-hoop-earrings",
       "category": "category3",
-      "price": "$58",
+      "price": "$3",
       "image": "images/products/spring-lotus1.jpg",
       "images": [
         "images/products/spring-lotus1.jpg",
@@ -36,7 +36,7 @@
     {
       "id": "moonstone-pendant",
       "category": "category1",
-      "price": "$92",
+      "price": "$3",
       "image": "images/products/spring-lotus1.jpg",
       "images": [
         "images/products/spring-lotus1.jpg",
@@ -67,7 +67,7 @@
     {
       "id": "layered-chain-necklace",
       "category": "category1",
-      "price": "$78",
+      "price": "$4,50",
       "image": "images/products/bunny's flowers1.jpg",
       "images": [
         "images/products/bunny's flowers1.jpg",
