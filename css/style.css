@@ -452,6 +452,47 @@ section {
   margin-bottom: 2.5rem;
 }
 
+.item-color-options {
+  margin-bottom: 1.5rem;
+}
+
+.color-options-label {
+  font-weight: 600;
+  color: var(--color-text-light);
+  margin-bottom: 0.6rem;
+}
+
+.color-options-list {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.color-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: var(--transition);
+  outline: none;
+}
+
+.color-circle.selected {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(202, 140, 133, 0.25);
+}
+
+.color-circle:hover {
+  transform: scale(1.07);
+}
+
+.selected-color-name {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  color: var(--color-text-light);
+}
+
 /* About Section */
 .about-preview {
   background-color: var(--color-white);

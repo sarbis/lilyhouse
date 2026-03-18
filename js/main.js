@@ -4,6 +4,7 @@
 let allItems = [];
 let translations = {};
 let currentLang = getLanguageFromURL() || localStorage.getItem('language') || 'lv';
+let selectedColorOption = null;
 
 // Get language from URL parameter
 function getLanguageFromURL() {
@@ -366,6 +367,32 @@ function renderItemDetail(item) {
   const description = getItemTranslation(item.id, 'description');
   const longDescription = getItemTranslation(item.id, 'longDescription');
   const categoryName = t(`collection.filter_${item.category}`);
+
+  const colorOptions = item.colorOptions || [];
+  let colorOptionsHtml = '';
+
+  if (colorOptions.length > 0) {
+    selectedColorOption = colorOptions.find(c => c.value === selectedColorOption?.value) || colorOptions[0];
+    const selectedColorLabel = selectedColorOption.name;
+    colorOptionsHtml = `
+      <div class="item-color-options">
+        <div class="color-options-label">${t('item.color_options') || 'Color options'}</div>
+        <div class="color-options-list">
+          ${colorOptions.map(option => `
+            <button
+              type="button"
+              class="color-circle ${selectedColorOption.value === option.value ? 'selected' : ''}"
+              data-color="${option.value}"
+              data-color-label="${option.name}"
+              aria-label="${option.name}"
+              style="background-color: ${option.value};"
+            ></button>
+          `).join('')}
+        </div>
+        <div class="selected-color-name" id="selectedColorName">${t('item.selected_color_prefix') || 'Selected color:'} ${selectedColorLabel}</div>
+      </div>
+    `;
+  }
   
   const images = item.images && item.images.length > 0 ? item.images : [item.image];
   const mainImageHtml = images[0] 
@@ -398,6 +425,7 @@ function renderItemDetail(item) {
         <div class="item-description">
           <p>${longDescription || description}</p>
         </div>
+        ${colorOptionsHtml}
         <button class="btn" onclick="openReservationModal('${item.id}', '${name}')">${t('item.reserve')}</button>
         <div class="mt-2">
           <a href="collection.html" class="btn btn-secondary">← ${t('item.back_to_collection')}</a>
@@ -406,6 +434,11 @@ function renderItemDetail(item) {
     </div>
   `;
   
+  // Initialize color selection for this item (if available)
+  if (colorOptions.length > 0) {
+    initColorOptions();
+  }
+
   // Initialize image gallery
   if (images.length > 1) {
     initImageGallery();
@@ -431,6 +464,41 @@ function initImageGallery() {
       }
     });
   });
+}
+
+function initColorOptions() {
+  const colorButtons = document.querySelectorAll('.color-circle');
+  const selectedColorName = document.getElementById('selectedColorName');
+
+  if (!colorButtons.length) return;
+
+  colorButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const color = this.dataset.color;
+      const label = this.dataset.colorLabel;
+
+      // Update selected class
+      colorButtons.forEach(btn => btn.classList.remove('selected'));
+      this.classList.add('selected');
+
+      selectedColorOption = { name: label, value: color };
+
+      if (selectedColorName) {
+        selectedColorName.textContent = `${(t('item.selected_color_prefix') || 'Selected color:')} ${label}`;
+      }
+
+      const itemColorField = document.getElementById('itemColor');
+      if (itemColorField) {
+        itemColorField.value = color;
+      }
+    });
+  });
+
+  // Initialize hidden color field with selected color
+  const itemColorField = document.getElementById('itemColor');
+  if (itemColorField && selectedColorOption) {
+    itemColorField.value = selectedColorOption.value;
+  }
 }
 
 // Modal functionality
@@ -468,6 +536,7 @@ function openReservationModal(itemId, itemName) {
   if (modal) {
     const itemNameField = document.getElementById('itemName');
     const itemNameDisplay = document.getElementById('itemNameDisplay');
+    const itemColorField = document.getElementById('itemColor');
     
     if (itemNameField) {
       itemNameField.value = itemName;
@@ -475,6 +544,10 @@ function openReservationModal(itemId, itemName) {
     
     if (itemNameDisplay) {
       itemNameDisplay.textContent = itemName;
+    }
+
+    if (itemColorField && selectedColorOption) {
+      itemColorField.value = selectedColorOption.value;
     }
     
     modal.classList.add('active');

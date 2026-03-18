@@ -41,6 +41,8 @@
       "more_title": "More from Our Collection",
       "modal_title": "Order",
       "modal_text": "Fill out the form below and we'll get back to you within 24 hours to confirm your reservation.",
+      "color_options": "Color options",
+      "selected_color_prefix": "Selected color:",
       "form_name": "Your Name",
       "form_email": "Your Email",
       "form_phone": "Phone Number",
@@ -193,6 +195,8 @@
       "more_title": "Vairāk no mūsu kolekcijas",
       "modal_title": "Pasūtīt",
       "modal_text": "Aizpildiet zemāk esošo veidlapu, un mēs sazināsimies ar jums 24 stundu laikā, lai apstiprinātu jūsu rezervāciju.",
+      "color_options": "Krāsu izvēle",
+      "selected_color_prefix": "Izvēlētā krāsa:",
       "form_name": "Jūsu vārds",
       "form_email": "Jūsu e-pasts",
       "form_phone": "Tālruņa numurs",
@@ -257,8 +261,8 @@
     },
     "items": {
       "delicate-pearl-necklace": {
-        "name": "Spring lotus",
-        "description": "Rokdarbu kaklarota ar saldūdens pērlēm uz smalkas zelta ķēdītes",
+        "name": "Bunny strawberry garden",
+        "description": "fktfk",
         "longDescription": "Šī elegantā kaklarota demonstrē rūpīgi atlasītas saldūdens pērles, katrai ar savu unikālo spīdumu un raksturu. Pērles ir ietītas uz smalkas 14k zelta ķēdītes, radot laika pārbaudītu izstrādājumu, ko var valkāt katru dienu vai īpašos gadījumos. Kaklarota ir aptuveni 18 collas gara ar 2 collu pagarinātāju."
       },
       "hammered-silver-ring": {
