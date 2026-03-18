@@ -25,6 +25,11 @@
         "images/products/bunny blossom1.jpg",
         "images/products/bunny blossom2.jpg"
       ],
+      "colorOptions": [
+        { "name": "Blue", "value": "#A9D2E6" },
+        { "name": "Pink", "value": "#F6B3C8" },
+        { "name": "Red", "value": "#FF0000" }
+      ],
       "featured": false
     },
     {
