@@ -106,9 +106,10 @@
       "id": "rose-quartz-studs",
       "category": "category3",
       "price": "$42",
-      "image": "images/products/rose-quartz-studs.jpg",
+      "image": "images/products/daisy-lotus1.jpg",
       "images": [
-        "images/products/rose-quartz-studs.jpg"
+        "images/products/daisy-lotus1.jpg",
+        "images/products/daisy-lotus2.jpg"
       ],
       "featured": false
     },
