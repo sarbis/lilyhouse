@@ -300,9 +300,29 @@ function addProductCardHandlers(container) {
 
 // Initialize category filter
 function initCategoryFilter(initialCategory = 'all') {
-  const filterBtns = document.querySelectorAll('.filter-btn');
+  const filterBtnNodeList = document.querySelectorAll('.filter-btn');
   const collectionContainer = document.getElementById('collection-items');
   
+  if (filterBtnNodeList.length === 0) return;
+
+  // Remove any blank/empty category buttons
+  const filterBtns = Array.from(filterBtnNodeList).filter(btn => {
+    const category = btn.dataset.category?.trim();
+    const text = btn.textContent?.trim();
+
+    if (!category || category === '') {
+      btn.remove();
+      return false;
+    }
+
+    if (!text || text === '') {
+      btn.remove();
+      return false;
+    }
+
+    return true;
+  });
+
   if (filterBtns.length === 0) return;
   
   // Set active button based on URL parameter
