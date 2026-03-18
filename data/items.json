@@ -10,9 +10,9 @@
         "images/products/bunny strawberry garden2.jpg.jpg"
       ],
       "colorOptions": [
-        { "name": "Strawberry Pink", "value": "#F6B3C8" },
-        { "name": "Garden Green", "value": "#8BBF98" },
-        { "name": "Creamy White", "value": "#FFF8E8" }
+        { "name": "red", "value": "#F6B3C8" },
+        { "name": "pink", "value": "#8BBF98" },
+        { "name": "blue", "value": "#FFF8E8" },
       ],
       "featured": true
     },
