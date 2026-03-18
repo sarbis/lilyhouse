@@ -302,7 +302,17 @@
         "name": "Bezgalības simbola aproce",
         "description": "Smalka zelta aproce ar rokām veidotu bezgalības simbolu",
         "longDescription": "Vienkārša, bet nozīmīga aproce ar rokām veidotu bezgalības simbola piekarinu uz smalkas 14k zelta ķēdītes. Aproce mēra 7 collas ar 1 collu pagarinātāju, lai piemērotu vairumam plaukstas izmēru. Bezgalības piekarins ir aptuveni 15mm plats. Perfekts ikdienas valkāšanai un kā mūžīgas mīlestības vai draudzības simbols."
+      },
+      "garden-bunny-earring-set": {
+        "name": "Bunny blossom",
+        "description": "Divu pāru auskari ar zaķa un ziedu motīviem",
+        "longDescription": "Šis jaukais auskaru komplekts ietver divus pārus - vienu ar smalkiem zaķa motīviem un otru ar krāsainiem ziedu charmiem. Abi pāri ir izgatavoti no 14k zelta pildījuma un ir ideāli piemēroti slāņošanai vai valkāšanai atsevišķi. Zaķa auskari ir aptuveni 1cm gari, bet ziedu charmi ir aptuveni 0.5cm."
       }
-    }
+    },
+      "garden-bunny-charm-bracelet": {
+        "name": "Daisy lotus",
+        "description": "Divu pāru auskari ar zaķa un ziedu motīviem",
+        "longDescription": "Šis jaukais auskaru komplekts ietver divus pārus - vienu ar smalkiem zaķa motīviem un otru ar krāsainiem ziedu charmiem. Abi pāri ir izgatavoti no 14k zelta pildījuma un ir ideāli piemēroti slāņošanai vai valkāšanai atsevišķi. Zaķa auskari ir aptuveni 1cm gari, bet ziedu charmi ir aptuveni 0.5cm."
+      }
   }
 }
