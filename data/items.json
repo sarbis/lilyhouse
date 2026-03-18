@@ -3,7 +3,7 @@
     {
       "id": "delicate-pearl-necklace",
       "category": "category1",
-      "price": "€3",
+      "price": "€4,50",
       "image": "images/products/bunny strawberry garden1.jpg",
       "images": [
         "images/products/bunny strawberry garden1.jpg",
@@ -19,7 +19,7 @@
     {
       "id": "garden-bunny-earring-set",
       "category": "category1",
-      "price": "€28",
+      "price": "€4",
       "image": "images/products/bunny blossom1.jpg",
       "images": [
         "images/products/bunny blossom1.jpg",
@@ -35,7 +35,7 @@
     {
       "id": "garden-bunny-charm-bracelet",
       "category": "category1",
-      "price": "€34",
+      "price": "€3",
       "image": "images/products/daisy-lotus1.jpg",
       "images": [
         "images/products/daisy-lotus1.jpg",
@@ -46,7 +46,7 @@
     {
       "id": "garden-bunny-pearl-earcuff",
       "category": "category1",
-      "price": "€26",
+      "price": "€4",
       "image": "images/products/bunny's flower garland1.jpg",
       "images": [
         "images/products/bunny's flower garland1.jpg",
@@ -95,7 +95,7 @@
     {
       "id": "twisted-copper-bracelet",
       "category": "category4",
-      "price": "€45",
+      "price": "€4",
       "image": "images/products/bunny strawberry garden1.jpg",
       "images": [
         "images/products/bunny strawberry garden1.jpg",
@@ -106,7 +106,7 @@
     {
       "id": "rose-quartz-studs",
       "category": "category3",
-      "price": "€42",
+      "price": "€3",
       "image": "images/products/daisy-lotus1.jpg",
       "images": [
         "images/products/daisy-lotus1.jpg",
@@ -139,7 +139,7 @@
     {
       "id": "infinity-bracelet",
       "category": "category4",
-      "price": "€52",
+      "price": "€4,50",
       "image": "images/products/bunny's flowers1.jpg",
       "images": [
         "images/products/bunny's flowers1.jpg",
