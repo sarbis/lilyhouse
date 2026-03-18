@@ -17,6 +17,28 @@
       "featured": true
     },
     {
+      "id": "garden-bunny-earring-set",
+      "category": "category1",
+      "price": "$28",
+      "image": "images/products/bunny blossom1.jpg",
+      "images": [
+        "images/products/bunny blossom1.jpg",
+        "images/products/bunny blossom2.jpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": "garden-bunny-charm-bracelet",
+      "category": "category1",
+      "price": "$34",
+      "image": "images/products/garden-bunny-bracelet1.jpg",
+      "images": [
+        "images/products/garden-bunny-bracelet1.jpg",
+        "images/products/garden-bunny-bracelet2.jpg"
+      ],
+      "featured": false
+    },
+    {
       "id": "hammered-silver-ring",
       "category": "category2",
       "price": "$3",
