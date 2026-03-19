@@ -99,11 +99,20 @@
     {
       "id": "twisted-copper-bracelet",
       "category": "category4",
-      "price": "€4",
+      "price": "€3",
       "image": "images/products/bunny strawberry garden1.jpg",
       "images": [
         "images/products/bunny strawberry garden1.jpg",
         "images/products/bunny strawberry garden2.jpg"
+      ],
+      "colorOptions": [
+        { "name": "red", "value": "#FF0000" },
+        { "name": "pink", "value": "#F6B3C8" },
+        { "name": "blue", "value": "#A9D2E6" }
+      ],
+      "materialOptions": [
+        { "name": "With metals", "value": "#C0C0C0" },
+        { "name": "On a thread", "value": "#8B4513" }
       ],
       "featured": false
     },
@@ -148,6 +157,10 @@
       "images": [
         "images/products/bunny's flowers1.jpg",
         "images/products/bunny's flowers2.jpg"
+      ],
+      "materialOptions": [
+        { "name": "With metals", "value": "#C0C0C0" },
+        { "name": "On a thread", "value": "#8B4513" }
       ],
       "featured": false
     }
