@@ -5,6 +5,7 @@ let allItems = [];
 let translations = {};
 let currentLang = getLanguageFromURL() || localStorage.getItem('language') || 'lv';
 let selectedColorOption = null;
+let selectedMaterialOption = null;
 
 // Get language from URL parameter
 function getLanguageFromURL() {
@@ -389,7 +390,9 @@ function renderItemDetail(item) {
   const categoryName = t(`collection.filter_${item.category}`);
 
   const colorOptions = item.colorOptions || [];
+  const materialOptions = item.materialOptions || [];
   let colorOptionsHtml = '';
+  let materialOptionsHtml = '';
 
   if (colorOptions.length > 0) {
     selectedColorOption = colorOptions.find(c => c.value === selectedColorOption?.value) || colorOptions[0];
@@ -410,6 +413,29 @@ function renderItemDetail(item) {
           `).join('')}
         </div>
         <div class="selected-color-name" id="selectedColorName">${t('item.selected_color_prefix') || 'Selected color:'} ${selectedColorLabel}</div>
+      </div>
+    `;
+  }
+
+  if (materialOptions.length > 0) {
+    selectedMaterialOption = materialOptions.find(m => m.value === selectedMaterialOption?.value) || materialOptions[0];
+    const selectedMaterialLabel = selectedMaterialOption.name;
+    materialOptionsHtml = `
+      <div class="item-color-options">
+        <div class="color-options-label">${t('item.material_options') || 'Material options'}</div>
+        <div class="color-options-list">
+          ${materialOptions.map(option => `
+            <button
+              type="button"
+              class="color-circle ${selectedMaterialOption.value === option.value ? 'selected' : ''}"
+              data-material="${option.value}"
+              data-material-label="${option.name}"
+              aria-label="${option.name}"
+              style="background-color: ${option.value};"
+            ></button>
+          `).join('')}
+        </div>
+        <div class="selected-color-name" id="selectedMaterialName">${t('item.selected_material_prefix') || 'Selected material:'} ${selectedMaterialLabel}</div>
       </div>
     `;
   }
@@ -446,6 +472,7 @@ function renderItemDetail(item) {
           <p>${longDescription || description}</p>
         </div>
         ${colorOptionsHtml}
+        ${materialOptionsHtml}
         <button class="btn" onclick="openReservationModal('${item.id}', '${name}')">${t('item.reserve')}</button>
         <div class="mt-2">
           <a href="collection.html" class="btn btn-secondary">← ${t('item.back_to_collection')}</a>
@@ -457,6 +484,11 @@ function renderItemDetail(item) {
   // Initialize color selection for this item (if available)
   if (colorOptions.length > 0) {
     initColorOptions();
+  }
+
+  // Initialize material selection for this item (if available)
+  if (materialOptions.length > 0) {
+    initMaterialOptions();
   }
 
   // Initialize image gallery
@@ -487,7 +519,7 @@ function initImageGallery() {
 }
 
 function initColorOptions() {
-  const colorButtons = document.querySelectorAll('.color-circle');
+  const colorButtons = document.querySelectorAll('.color-circle[data-color]');
   const selectedColorName = document.getElementById('selectedColorName');
 
   if (!colorButtons.length) return;
@@ -518,6 +550,39 @@ function initColorOptions() {
   const itemColorField = document.getElementById('itemColor');
   if (itemColorField && selectedColorOption) {
     itemColorField.value = selectedColorOption.value;
+  }
+}
+
+function initMaterialOptions() {
+  const materialButtons = document.querySelectorAll('.color-circle[data-material]');
+  const selectedMaterialName = document.getElementById('selectedMaterialName');
+
+  if (!materialButtons.length) return;
+
+  materialButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const material = this.dataset.material;
+      const label = this.dataset.materialLabel;
+
+      materialButtons.forEach(btn => btn.classList.remove('selected'));
+      this.classList.add('selected');
+
+      selectedMaterialOption = { name: label, value: material };
+
+      if (selectedMaterialName) {
+        selectedMaterialName.textContent = `${(t('item.selected_material_prefix') || 'Selected material:')} ${label}`;
+      }
+
+      const itemMaterialField = document.getElementById('itemMaterial');
+      if (itemMaterialField) {
+        itemMaterialField.value = label;
+      }
+    });
+  });
+
+  const itemMaterialField = document.getElementById('itemMaterial');
+  if (itemMaterialField && selectedMaterialOption) {
+    itemMaterialField.value = selectedMaterialOption.name;
   }
 }
 
@@ -568,6 +633,11 @@ function openReservationModal(itemId, itemName) {
 
     if (itemColorField && selectedColorOption) {
       itemColorField.value = selectedColorOption.value;
+    }
+
+    const itemMaterialField = document.getElementById('itemMaterial');
+    if (itemMaterialField && selectedMaterialOption) {
+      itemMaterialField.value = selectedMaterialOption.name;
     }
     
     modal.classList.add('active');

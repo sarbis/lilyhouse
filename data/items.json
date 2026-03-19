@@ -14,6 +14,10 @@
         { "name": "pink", "value": "#F6B3C8" },
         { "name": "blue", "value": "#A9D2E6" }
       ],
+      "materialOptions": [
+        { "name": "With metals", "value": "#C0C0C0" },
+        { "name": "On a thread", "value": "#8B4513" }
+      ],
       "featured": true
     },
     {
