@@ -423,7 +423,6 @@ function renderItemDetail(item) {
     console.log('renderItemDetail materialOptions', item.id, materialOptions);
     materialOptionsHtml = `
       <div class="item-material-options item-color-options">
-        <div style="font-size:0.85rem; margin-bottom:0.35rem; color:#555;">(debug: material options rendered)</div>
         <div class="color-options-label">${t('item.material_options') || 'Material options'}</div>
         <div class="color-options-list">
           ${materialOptions.map(option => `
