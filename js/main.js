@@ -420,18 +420,20 @@ function renderItemDetail(item) {
   if (materialOptions.length > 0) {
     selectedMaterialOption = materialOptions.find(m => m.value === selectedMaterialOption?.value) || materialOptions[0];
     const selectedMaterialLabel = selectedMaterialOption.name;
+    console.log('renderItemDetail materialOptions', item.id, materialOptions);
     materialOptionsHtml = `
-      <div class="item-color-options">
+      <div class="item-material-options item-color-options">
+        <div style="font-size:0.85rem; margin-bottom:0.35rem; color:#555;">(debug: material options rendered)</div>
         <div class="color-options-label">${t('item.material_options') || 'Material options'}</div>
         <div class="color-options-list">
           ${materialOptions.map(option => `
             <button
               type="button"
-              class="color-circle ${selectedMaterialOption.value === option.value ? 'selected' : ''}"
+              class="color-circle material-circle ${selectedMaterialOption.value === option.value ? 'selected' : ''}"
               data-material="${option.value}"
               data-material-label="${option.name}"
               aria-label="${option.name}"
-              style="background-color: ${option.value};"
+              style="background-color: ${option.value}; border-color: #333;"
             ></button>
           `).join('')}
         </div>
@@ -554,7 +556,7 @@ function initColorOptions() {
 }
 
 function initMaterialOptions() {
-  const materialButtons = document.querySelectorAll('.color-circle[data-material]');
+  const materialButtons = document.querySelectorAll('.item-material-options .color-circle[data-material]');
   const selectedMaterialName = document.getElementById('selectedMaterialName');
 
   if (!materialButtons.length) return;
