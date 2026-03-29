@@ -100,10 +100,10 @@
       "id": "twisted-copper-bracelet",
       "category": "category4",
       "price": "€3,00",
-      "image": "images/products/bunny strawberry garden1.jpg",
+      "image": "images/products/spring-princess.jpg",
       "images": [
-        "images/products/bunny strawberry garden1.jpg",
-        "images/products/bunny strawberry garden2.jpg"
+        "images/products/spring-princess.jpg"
+        
       ],
       "colorOptions": [
         { "name": "red", "value": "#FF0000" },
@@ -142,10 +142,10 @@
       "id": "infinity-bracelet",
       "category": "category4",
       "price": "€3,00",
-      "image": "images/products/bunny's flowers1.jpg",
+      "image": "images/products/ocean-princess.jpg",
       "images": [
-        "images/products/bunny's flowers1.jpg",
-        "images/products/bunny's flowers2.jpg"
+        "images/products/ocean-princess.jpg"
+        
       ],
       "materialOptions": [
         { "name": "With metals", "value": "#C0C0C0" },
