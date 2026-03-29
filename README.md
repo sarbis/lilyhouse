@@ -111,7 +111,7 @@ Example:
 Update the following files with your content:
 
 - **Brand Information:** Edit text in `index.html`, `about.html`
-- **Contact Email:** Replace `hello@lilyhouse.lv` throughout all HTML files
+- **Contact Email:** Replace `info@lilyhouse.lv` throughout all HTML files
 - **Social Media Links:** Update Instagram, Facebook URLs in all pages
 - **Brand Colors:** Modify CSS variables in `css/style.css` (top of file)
 
@@ -282,7 +282,7 @@ The site is designed to be lightweight:
 ## Support
 
 For questions or issues:
-- Email: hello@lilyhouse.lv
+- Email: info@lilyhouse.lv
 - Create an issue on GitHub
 - Check GitHub Pages [documentation](https://docs.github.com/en/pages)
 
