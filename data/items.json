@@ -139,17 +139,6 @@
       "featured": false
     },
     {
-      "id": "turquoise-ring",
-      "category": "category2",
-      "price": "€110",
-      "image": "images/products/turquoise-ring.jpg",
-      "images": [
-        "images/products/turquoise-ring.jpg",
-        "images/products/turquoise-ring-detail.jpg"
-      ],
-      "featured": false
-    },
-    {
       "id": "infinity-bracelet",
       "category": "category4",
       "price": "€3,00",

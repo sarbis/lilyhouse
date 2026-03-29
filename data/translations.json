@@ -14,7 +14,7 @@
       "featured_subtitle": "Explore the new spring collection",
       "view_details": "View Details",
       "about_title": "About Lilyhouse",
-      "about_text": "Every piece of jewelry is handcrafted with care and attention to detail. We believe in creating timeless pieces that tell a story and bring joy to those who wear them.",
+      "about_text": "Each piece of jewelry is created with love and care. Each piece of jewelry has its own story and way of making it. Read our story and discover how we create jewelry that is not only beautiful, but also special.",
       "about_cta": "Learn More",
       "cta_title": "Ready to Find Your Perfect Piece?",
       "cta_subtitle": "Browse our collection or get in touch to commission a custom design",
@@ -24,7 +24,7 @@
     },
     "collection": {
       "title": "Our Collections",
-      "subtitle": "Handcrafted jewelry pieces, each unique and made with love",
+      "subtitle": "Handmade jewelry, each unique and created with love",
       "filter_all": "All",
       "filter_category1": "Garden Bunny",
       "filter_category3": "Lotus",
@@ -154,11 +154,6 @@
         "description": "Delicate two-strand necklace in mixed metals",
         "longDescription": "This modern layered necklace features two different chains - one in 14k gold fill and one in sterling silver - creating an effortless mixed-metal look. The chains are graduated in length (16 and 18 inches) to create perfect layering. Each chain has individual closures for versatility."
       },
-      "turquoise-ring": {
-        "name": "Turquoise Statement Ring",
-        "description": "Bold sterling silver ring with natural turquoise stone",
-        "longDescription": "This eye-catching ring features a natural turquoise stone measuring approximately 10x14mm, set in a handmade sterling silver bezel. The wide silver band (6mm) provides a substantial, comfortable fit. Each turquoise stone has unique matrix patterns, making every ring one-of-a-kind. Available in sizes 6-9."
-      },
       "infinity-bracelet": {
         "name": "Bunny's flowers",
         "description": "Delicate gold-filled bracelet with hand-formed infinity charm",
@@ -196,7 +191,7 @@
       "featured_subtitle": "Apskati jauno pavasara kolekciju",
       "view_details": "Skatīt detaļas",
       "about_title": "Par Lilyhouse",
-      "about_text": "Katrs juvelierizstrādājums tiek izgatavots ar rūpību un uzmanību detaļām. Mēs ticam laika pārbaudītu izstrādājumu radīšanai, kas stāsta stāstu un sniedz prieku tiem, kas tos valkā.",
+      "about_text": "Katra rota tiek radīta ar mīlestību un rūpību. Katrai rotai ir savs stāsts un veids kā tā tiek veidota. Izlasi mūsu stāstu un atklāj, kā mēs radām rotaslietas, kas ir ne tikai skaistas, bet arī īpašas.",
       "about_cta": "Uzzināt vairāk",
       "cta_title": "Gatavs atrast savu perfekto izstrādājumu?",
       "cta_subtitle": "Pārlūkojiet mūsu kolekciju vai sazinieties, lai pasūtītu pielāgotu dizainu",
@@ -206,7 +201,7 @@
     },
     "collection": {
       "title": "Mūsu kolekcijas",
-      "subtitle": "Rokdarbu juvelierizstrādājumi, katrs unikāls un radīts ar mīlestību",
+      "subtitle": "Pašdarinātas rotaslietas, katra unikāla un radīta ar mīlestību",
       "filter_all": "Visi",
       "filter_category1": "Garden Bunny",
       "filter_category3": "Lotus",
@@ -294,7 +289,7 @@
       "faq4_a": "Glabājiet izstrādājumus sausā vietā, ja tos nevalkājat. Tīriet maigi ar mīkstu drāniņu. Kad iespējams, izvairieties no juvelierizstrādājumu pakļaušanas agresīvām ķimikālijām, smaržām vai ūdenim."
     },
     "footer": {
-      "about": "Rokdarbu juvelierizstrādājumi, kas radīti ar mīlestību un rūpību. Katrs izstrādājums ir unikāls un stāsta savu stāstu.",
+      "about": "Rotaslietas, kas radītas ar mīlestību un rūpību. Katra rota ir unikāla un stāsta savu stāstu.",
       "links_title": "Ātrās saites",
       "contact_title": "Kontakti",
       "email_label": "E-pasts:",
@@ -335,11 +330,6 @@
         "name": "Bunny's flowers",
         "description": "Smalka divslāņu kaklarota jauktā metālā",
         "longDescription": "Šī modernā daudzslāņu kaklarota demonstrē divas dažādas ķēdes - vienu 14k zelta pildījumā un otru sudraba - radot bezpūlīgu jauktā metāla izskatu. Ķēdes ir pakāpeniski pagarinātas (16 un 18 collas), lai radītu perfektu slāņošanu. Katrai ķēdei ir individuāli slēdzēji daudzpusībai."
-      },
-      "turquoise-ring": {
-        "name": "Tirkīza paziņojuma gredzens",
-        "description": "Drosmīgs sudraba gredzens ar dabisku tirkīza akmeni",
-        "longDescription": "Šis acīm krītošs gredzens demonstrē dabisku tirkīza akmeni, kas mēra aptuveni 10x14mm, ietverts rokdarbu sudraba ietvars. Platā sudraba lente (6mm) nodrošina būtisku, ērtu piekritību. Katram tirkīza akmenim ir unikāli matricas raksti, padarot katru gredzenu unikālu. Pieejams izmēros 6-9."
       },
       "infinity-bracelet": {
         "name": "Bunny's flowers",
