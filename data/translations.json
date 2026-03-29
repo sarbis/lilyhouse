@@ -42,6 +42,8 @@
       "modal_text": "Fill out the form below and we'll get back to you within 24 hours to confirm your reservation.",
       "color_options": "Color options",
       "selected_color_prefix": "Selected color:",
+      "selected_material_prefix": "selected material:",
+      "material_options": "Material options",
       "form_name": "Your Name",
       "form_email": "Your Email",
       "form_phone": "Phone Number",
@@ -50,6 +52,18 @@
       "form_message_placeholder": "Any special requests or questions?",
       "form_submit": "Send Reservation",
       "form_note": "We'll respond within 24 hours"
+    },
+    "colors": {
+      "red": "red",
+      "pink": "pink",
+      "blue": "blue",
+      "Rose Gold": "Rose Gold",
+      "Soft Blue": "Soft Blue",
+      "Mint": "Mint"
+    },
+    "materials": {
+      "With metals": "With metals",
+      "On a thread": "On a thread"
     },
     "about": {
       "title": "Our Story",
@@ -210,6 +224,8 @@
       "modal_text": "Aizpildiet zemāk esošo veidlapu, un mēs sazināsimies ar jums 24 stundu laikā, lai apstiprinātu jūsu rezervāciju.",
       "color_options": "Krāsu izvēle",
       "selected_color_prefix": "Izvēlētā krāsa:",
+      "selected_material_prefix": "Izvēlētais materiāls:",
+      "material_options": "Materiālu izvēle",
       "form_name": "Jūsu vārds",
       "form_email": "Jūsu e-pasts",
       "form_phone": "Tālruņa numurs",
@@ -218,6 +234,18 @@
       "form_message_placeholder": "Kādi īpaši pieprasījumi vai jautājumi?",
       "form_submit": "Nosūtīt rezervāciju",
       "form_note": "Mēs atbildēsim 24 stundu laikā"
+    },
+    "colors": {
+      "red": "sarkans",
+      "pink": "rozā",
+      "blue": "zils",
+      "Rose Gold": "rozā zelts",
+      "Soft Blue": "maigs zils",
+      "Mint": "piparmētra"
+    },
+    "materials": {
+      "With metals": "ar metāliem",
+      "On a thread": "uz diega"
     },
     "about": {
       "title": "Mūsu stāsts",

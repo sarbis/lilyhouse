@@ -503,7 +503,7 @@ section {
 .selected-color-name {
   margin-top: 0.6rem;
   font-size: 0.95rem;
-  color: var(--color-text-light);
+  color: var(--color-primary);
 }
 
 /* About Section */

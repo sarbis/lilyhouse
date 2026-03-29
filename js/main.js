@@ -396,7 +396,7 @@ function renderItemDetail(item) {
 
   if (colorOptions.length > 0) {
     selectedColorOption = colorOptions.find(c => c.value === selectedColorOption?.value) || colorOptions[0];
-    const selectedColorLabel = selectedColorOption.name;
+    const selectedColorLabel = t(`colors.${selectedColorOption.name}`) || selectedColorOption.name;
     colorOptionsHtml = `
       <div class="item-color-options">
         <div class="color-options-label">${t('item.color_options') || 'Color options'}</div>
@@ -406,8 +406,8 @@ function renderItemDetail(item) {
               type="button"
               class="color-circle ${selectedColorOption.value === option.value ? 'selected' : ''}"
               data-color="${option.value}"
-              data-color-label="${option.name}"
-              aria-label="${option.name}"
+              data-color-label="${t(`colors.${option.name}`) || option.name}"
+              aria-label="${t(`colors.${option.name}`) || option.name}"
               style="background-color: ${option.value};"
             ></button>
           `).join('')}
@@ -419,7 +419,7 @@ function renderItemDetail(item) {
 
   if (materialOptions.length > 0) {
     selectedMaterialOption = materialOptions.find(m => m.value === selectedMaterialOption?.value) || materialOptions[0];
-    const selectedMaterialLabel = selectedMaterialOption.name;
+    const selectedMaterialLabel = t(`materials.${selectedMaterialOption.name}`) || selectedMaterialOption.name;
     console.log('renderItemDetail materialOptions', item.id, materialOptions);
     materialOptionsHtml = `
       <div class="item-material-options item-color-options">
@@ -430,8 +430,8 @@ function renderItemDetail(item) {
               type="button"
               class="color-circle material-circle ${selectedMaterialOption.value === option.value ? 'selected' : ''}"
               data-material="${option.value}"
-              data-material-label="${option.name}"
-              aria-label="${option.name}"
+              data-material-label="${t(`materials.${option.name}`) || option.name}"
+              aria-label="${t(`materials.${option.name}`) || option.name}"
               style="background-color: ${option.value}; border-color: #333;"
             ></button>
           `).join('')}
