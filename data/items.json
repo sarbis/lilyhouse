@@ -157,10 +157,10 @@
       "id": "enchanted-crown-earrings",
       "category": "category4",
       "price": "€3,00",
-      "image": "images/products/enchanted-crown1.jpg",
+      "image": "images/products/jellyfish-princess.jpg",
       "images": [
-        "images/products/enchanted-crown1.jpg",
-        "images/products/enchanted-crown2.jpg"
+        "images/products/jellyfish-princess.jpg"
+        
       ],
       "colorOptions": [
         { "name": "Gold", "value": "#FFD700" },
