@@ -77,7 +77,7 @@
       "title": "Get in Touch",
       "subtitle": "We'd love to hear from you",
       "info_title": "Contact Information",
-      "info_text": "Have a question about our jewelry? Want to commission a custom piece?<br>Or just want to say hello? Send us a message!",
+      "info_text": "Have questions about our jewelry? Want to order a custom product? Send us a message!",
       "form_title": "Send Us a Message",
       "form_name": "Your Name",
       "form_email": "Your Email",
@@ -108,7 +108,7 @@
       "delicate-pearl-necklace": {
         "name": "Bunny strawberry garden",
         "description": "cute bracelet with metal details, pearls and colourful charms",
-        "longDescription": "This aethetic bracelet features a unique design with metal details, pearls and colourful charms. The pearls are wire-wrapped onto a delicate 14k gold-filled chain, creating a timeless piece that can be worn every day or for special occasions. The bracelet is approximately 18 inches in length with a 2-inch extender."
+        "longDescription": "This bracelet is perfect for special moments or days when you want a little glamor with your outfit. Wearing this bracelet will make you feel happy and special. The bracelet can be purchased in 3 berry colors - strawberry (red), blueberry (blue) and raspberry (pink). There is also a material option available - bracelet on rubber or connected with rings."
       },
       "hammered-silver-ring": {
         "name": "Daisy lotus",
@@ -245,7 +245,7 @@
       "title": "Sazināties",
       "subtitle": "Mēs labprāt sazināsimies ar jums",
       "info_title": "Kontaktinformācija",
-      "info_text": "Vai ir jautājums par mūsu juvelierizstrādājumiem? Vēlaties pasūtīt pielāgotu izstrādājumu?<br>Vai vienkārši vēlaties sasveicināties? Sūtiet mums ziņu!",
+      "info_text": "Vai ir jautājumi par mūsu rotām? Vēlaties pasūtīt pielāgotu izstrādājumu? Sūtiet mums ziņu!",
       "form_title": "Sūtiet mums ziņu",
       "form_name": "Jūsu vārds",
       "form_email": "Jūsu e-pasts",
@@ -276,7 +276,7 @@
       "delicate-pearl-necklace": {
         "name": "Bunny strawberry garden",
         "description": "Krāšna rokassprādze ar metāla riņķīšiem, pērlēm un krāsainiem charmiem",
-        "longDescription": "Šī elegantā kaklarota demonstrē rūpīgi atlasītas saldūdens pērles, katrai ar savu unikālo spīdumu un raksturu. Pērles ir ietītas uz smalkas 14k zelta ķēdītes, radot laika pārbaudītu izstrādājumu, ko var valkāt katru dienu vai īpašos gadījumos. Kaklarota ir aptuveni 18 collas gara ar 2 collu pagarinātāju."
+        "longDescription": "Šī rokassprādze ir ideāli piemērota īpašiem momentiem vai dienām, kad vēlies nedaudz krāšņumu pie sava apģērba. Uzvelkot šo rokassprādzi tu jutīsies iepriecināta un īpaša. Rokassprādzi var iegādāties 3 ogu krāsās - zemeņu (sarkana), melleņu (zila) un aveņu (rozā). Kā arī ir pieejamas materiālu opcijas - rokassprādze uz gumijas vai savienota ar riņķīšiem."
       },
       "hammered-silver-ring": {
         "name": "Daisy lotus",

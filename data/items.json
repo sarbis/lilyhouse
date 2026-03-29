@@ -3,7 +3,7 @@
     {
       "id": "delicate-pearl-necklace",
       "category": "category1",
-      "price": "€3",
+      "price": "€3,00",
       "image": "images/products/bunny strawberry garden1.jpg",
       "images": [
         "images/products/bunny strawberry garden1.jpg",
@@ -39,7 +39,7 @@
     {
       "id": "garden-bunny-charm-bracelet",
       "category": "category1",
-      "price": "€3",
+      "price": "€3,00",
       "image": "images/products/daisy-lotus1.jpg",
       "images": [
         "images/products/daisy-lotus1.jpg",
@@ -50,7 +50,7 @@
     {
       "id": "garden-bunny-pearl-earcuff",
       "category": "category1",
-      "price": "€2",
+      "price": "€2,00",
       "image": "images/products/bunny's flower garland1.jpg",
       "images": [
         "images/products/bunny's flower garland1.jpg",
@@ -66,7 +66,7 @@
     {
       "id": "hammered-silver-ring",
       "category": "category2",
-      "price": "€3",
+      "price": "€3,00",
       "image": "images/products/daisy-lotus1.jpg",
       "images": [
         "images/products/daisy-lotus1.jpg",
@@ -77,7 +77,7 @@
     {
       "id": "gold-hoop-earrings",
       "category": "category3",
-      "price": "€3",
+      "price": "€3,00",
       "image": "images/products/spring-lotus1.jpg",
       "images": [
         "images/products/spring-lotus1.jpg",
@@ -88,7 +88,7 @@
     {
       "id": "moonstone-pendant",
       "category": "category1",
-      "price": "€3",
+      "price": "€3,00",
       "image": "images/products/spring-lotus1.jpg",
       "images": [
         "images/products/spring-lotus1.jpg",
@@ -99,7 +99,7 @@
     {
       "id": "twisted-copper-bracelet",
       "category": "category4",
-      "price": "€3",
+      "price": "€3,00",
       "image": "images/products/bunny strawberry garden1.jpg",
       "images": [
         "images/products/bunny strawberry garden1.jpg",
@@ -119,7 +119,7 @@
     {
       "id": "rose-quartz-studs",
       "category": "category3",
-      "price": "€3",
+      "price": "€3,00",
       "image": "images/products/daisy-lotus1.jpg",
       "images": [
         "images/products/daisy-lotus1.jpg",
@@ -130,7 +130,7 @@
     {
       "id": "layered-chain-necklace",
       "category": "category1",
-      "price": "€3",
+      "price": "€3,00",
       "image": "images/products/bunny's flowers1.jpg",
       "images": [
         "images/products/bunny's flowers1.jpg",
@@ -152,7 +152,7 @@
     {
       "id": "infinity-bracelet",
       "category": "category4",
-      "price": "€3",
+      "price": "€3,00",
       "image": "images/products/bunny's flowers1.jpg",
       "images": [
         "images/products/bunny's flowers1.jpg",
