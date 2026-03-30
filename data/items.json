@@ -198,14 +198,11 @@
     {
       "id": "apple-fairy-twins-bracelet",
       "category": "category1",
-      "price": "€2,00",
-      "image": "images/products/apple-fairy-twins-set.png",
+      "price": "€3,00",
+      "image": "images/products/spiral spring lotus1.jpg",
       "images": [
-        "images/products/apple-fairy-twins-set.png"
-      ],
-      "colorOptions": [
-        { "name": "Green", "value": "#9CD7B1" },
-        { "name": "Red", "value": "#FF0000" }
+        "images/products/spiral spring lotus1.jpg",
+        "images/products/spiral spring lotus2.jpg"
       ],
       "featured": false
     }
