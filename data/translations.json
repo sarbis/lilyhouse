@@ -268,7 +268,7 @@
       "quality_title": "Kvalitāte",
       "quality_text": "Mēs izmantojam tikai labākos materiālus un pērlītes, lai radītu rotas, kas kalpo ilgi.",
       "unique_title": "Unikālums",
-      "unique_text": "Katrs izstrādājums ir darināts ar rokām, nodrošinot, ka saņemat kaut ko patiesi unikālu.",
+      "unique_text": "Katra rota ir pašdarināta, nodrošinot, ka saņemat kaut ko patiesi unikālu.",
       "care_title": "Rūpes",
       "care_text": "No dizaina līdz piegādei, mēs ieliekam mīlestību un uzmanību katrā procesa solī.",
       "cta_title": "Sazināties ar mums",
@@ -294,10 +294,8 @@
       "faq1_a": "Jā! Mums ļoti patīk veidot pielāgotus izstrādājumus. Sazinieties ar mums ar savām idejām, un mēs strādāsim kopā, lai īstenotu jūsu vīziju.",
       "faq2_q": "Cik ilgs ir piegādes laiks?",
       "faq2_a": "Piegādes laiks ir atkarīgs no tā, kādā vedā jūs vēlaties saņemt savu pasūtijumu. Caur omnivu var ieilgties līdz 3 dienām, bet var sarunāt arī satikties klātienē.",
-      "faq3_q": "Kādus materiālus jūs izmantojat?",
-      "faq3_a": "Mēs galvenokārt strādājam ar sudrabu, 14k zelta pildījumu, dabīgajiem dārgakmeņiem un saldūdens pērlēm. Visi metāli ir bez niķeļa un piemēroti jutīgai ādai.",
-      "faq4_q": "Kā man jākopj mani juvelierizstrādājumi?",
-      "faq4_a": "Glabājiet izstrādājumus sausā vietā, ja tos nevalkājat. Tīriet maigi ar mīkstu drāniņu. Kad iespējams, izvairieties no juvelierizstrādājumu pakļaušanas agresīvām ķimikālijām, smaržām vai ūdenim."
+      "faq3_q": "Vai šīs rotas drīkst saskarties ar ūdeni vaai mitrumu?",
+      "faq3_a": "Rotām ar metāliņiem nebūtu ieteicams saskarties ar mitrumu, jo tās var sākt rūsēt. Ja nav iespēja rotām nesaskarties ar mitrumu, tad iesakām iegādāties mūsu rotas uz gumijas. "
     },
     "footer": {
       "about": "Rotaslietas, kas radītas ar mīlestību un rūpību. Katra rota ir unikāla un stāsta savu stāstu.",
