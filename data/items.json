@@ -37,17 +37,6 @@
       "featured": false
     },
     {
-      "id": "garden-bunny-charm-bracelet",
-      "category": "category1",
-      "price": "€3,00",
-      "image": "images/products/daisy-lotus1.jpg",
-      "images": [
-        "images/products/daisy-lotus1.jpg",
-        "images/products/daisy-lotus2.jpg"
-      ],
-      "featured": false
-    },
-    {
       "id": "garden-bunny-pearl-earcuff",
       "category": "category1",
       "price": "€2,00",
