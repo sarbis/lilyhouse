@@ -4,10 +4,10 @@
       "id": "delicate-pearl-necklace",
       "category": "category1",
       "price": "€3,00",
-      "image": "images/products/bunny strawberry garden1.jpg",
+      "image": "images/products/bunny_strawberry_garden1.jpg",
       "images": [
-        "images/products/bunny strawberry garden1.jpg",
-        "images/products/bunny strawberry garden2.jpg"
+        "images/products/bunny_strawberry_garden1.jpg",
+        "images/products/bunny_strawberry_garden2.jpg"
       ],
       "colorOptions": [
         { "name": "red", "value": "#FF0000" },
@@ -24,10 +24,10 @@
       "id": "garden-bunny-earring-set",
       "category": "category1",
       "price": "€2,50",
-      "image": "images/products/bunny blossom1.jpg",
+      "image": "images/products/bunny_blossom1.jpg",
       "images": [
-        "images/products/bunny blossom1.jpg",
-        "images/products/bunny blossom2.jpg"
+        "images/products/bunny_blossom1.jpg",
+        "images/products/bunny_blossom2.jpg"
       ],
       "colorOptions": [
         { "name": "Blue", "value": "#A9D2E6" },
@@ -40,10 +40,10 @@
       "id": "garden-bunny-charm-bracelet",
       "category": "category1",
       "price": "€3,00",
-      "image": "images/products/daisy-lotus1.jpg",
+      "image": "images/products/daisy_lotus1.jpg",
       "images": [
-        "images/products/daisy-lotus1.jpg",
-        "images/products/daisy-lotus2.jpg"
+        "images/products/daisy_lotus1.jpg",
+        "images/products/daisy_lotus2.jpg"
       ],
       "featured": false
     },
@@ -51,10 +51,10 @@
       "id": "garden-bunny-pearl-earcuff",
       "category": "category1",
       "price": "€2,00",
-      "image": "images/products/bunny's flower garland1.jpg",
+      "image": "images/products/bunnys_flower_garland1.jpg",
       "images": [
-        "images/products/bunny's flower garland1.jpg",
-        "images/products/bunny's flower garland2.jpg"
+        "images/products/bunnys_flower_garland1.jpg",
+        "images/products/bunnys_flower_garland2.jpg"
       ],
       "colorOptions": [
         { "name": "pink", "value": "#F6B3C8" },
@@ -67,10 +67,10 @@
       "id": "gold-hoop-earrings",
       "category": "category3",
       "price": "€3,00",
-      "image": "images/products/diamond lotus1.jpg",
+      "image": "images/products/diamond_lotus1.jpg",
       "images": [
-        "images/products/diamond lotus1.jpg",
-        "images/products/diamond lotus2.jpg"
+        "images/products/diamond_lotus1.jpg",
+        "images/products/diamond_lotus2.jpg"
       ],
       "featured": true
     },
@@ -78,10 +78,10 @@
       "id": "moonstone-pendant",
       "category": "category1",
       "price": "€3,00",
-      "image": "images/products/spring-lotus1.jpg",
+      "image": "images/products/spring_lotus1.jpg",
       "images": [
-        "images/products/spring-lotus1.jpg",
-        "images/products/spring-lotus2.jpg"
+        "images/products/spring_lotus1.jpg",
+        "images/products/spring_lotus2.jpg"
       ],
       "featured": false
     },
@@ -89,10 +89,10 @@
       "id": "layered-chain-necklace",
       "category": "category1",
       "price": "€3,00",
-      "image": "images/products/bunny's flowers1.jpg",
+      "image": "images/products/bunnys_flowers1.jpg",
       "images": [
-        "images/products/bunny's flowers1.jpg",
-        "images/products/bunny's flowers2.jpg"
+        "images/products/bunnys_flowers1.jpg",
+        "images/products/bunnys_flowers2.jpg"
       ],
       "materialOptions": [
         { "name": "With metals", "value": "#C0C0C0" },
@@ -104,9 +104,9 @@
       "id": "infinity-bracelet",
       "category": "category4",
       "price": "€3,00",
-      "image": "images/products/ocean-princess.jpg",
+      "image": "images/products/ocean_princess.jpg",
       "images": [
-        "images/products/ocean-princess.jpg"
+        "images/products/ocean_princess.jpg"
         
       ],
       "materialOptions": [
@@ -119,9 +119,9 @@
       "id": "enchanted-crown-earrings",
       "category": "category4",
       "price": "€3,00",
-      "image": "images/products/jellyfish-princess.jpg",
+      "image": "images/products/jellyfish_princess.jpg",
       "images": [
-        "images/products/jellyfish-princess.jpg"
+        "images/products/jellyfish_princess.jpg"
         
       ],
       "colorOptions": [
@@ -135,14 +135,10 @@
       "id": "bunny-flying-friend-earrings",
       "category": "category1",
       "price": "€4,00",
-      "image": "images/products/bunny's flying friend1.jpg",
+      "image": "images/products/bunnys_flying_friend1.jpg",
       "images": [
-        "images/products/bunny's flying friend1.jpg",
-        "images/products/bunny's flying friend2.jpg"
-      ],
-      "colorOptions": [
-        { "name": "Blue", "value": "#A9D2E6" },
-        { "name": "Pink", "value": "#F6B3C8" }
+        "images/products/bunnys_flying_friend1.jpg",
+        "images/products/bunnys_flying_friend2.jpg"
       ],
       "featured": false
     },
@@ -150,10 +146,10 @@
       "id": "raindrop-garden-necklace",
       "category": "category1",
       "price": "€4,00",
-      "image": "images/products/the rain drop garden1.jpg",
+      "image": "images/products/the_rain_drop_garden1.jpg",
       "images": [
-        "images/products/the rain drop garden1.jpg",
-        "images/products/the raindrop garden2.jpg"
+        "images/products/the_rain_drop_garden1.jpg",
+        "images/products/the_raindrop_garden2.jpg"
       ],
       "featured": false
     },
@@ -161,10 +157,10 @@
       "id": "apple-fairy-twins-bracelet",
       "category": "category1",
       "price": "€3,00",
-      "image": "images/products/spiral spring lotus1.jpg",
+      "image": "images/products/spiral_spring_lotus1.jpg",
       "images": [
-        "images/products/spiral spring lotus1.jpg",
-        "images/products/spiral spring lotus2.jpg"
+        "images/products/spiral_spring_lotus1.jpg",
+        "images/products/spiral_spring_lotus2.jpg"
       ],
       "featured": false
     }
