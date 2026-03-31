@@ -305,7 +305,7 @@
     "items": {
       "delicate-pearl-necklace": {
         "name": "Bunny strawberry garden",
-        "description": "Krāšna rokassprādze ar metāla riņķīšiem, pērlēm un krāsainiem charmiem",
+        "description": "Krāšna rokassprādze ar metāla riņķīšiem, pērlēm un krāsainiem kuloniem",
         "longDescription": "Šī rokassprādze ir ideāli piemērota īpašiem momentiem vai dienām, kad vēlies nedaudz krāšņumu pie sava apģērba. Uzvelkot šo rokassprādzi tu jutīsies iepriecināta un īpaša. Rokassprādzi var iegādāties 3 ogu krāsās - zemeņu (sarkana), melleņu (zila) un aveņu (rozā). Kā arī ir pieejamas materiālu opcijas - rokassprādze uz gumijas vai savienota ar riņķīšiem."
       },
       "hammered-silver-ring": {
@@ -325,7 +325,7 @@
       },
       "twisted-copper-bracelet": {
         "name": "Spring princess",
-        "description": "Krāšna kaklarota ar metāla riņķīšiem, pērlēm un krāsainiem charmiem",
+        "description": "Krāšna kaklarota ar metāla riņķīšiem, pērlēm un krāsainiem kuloniem",
         "longDescription": "Šī drosmīgā aproce ir izgatavota no tīras vara stieples, kas ir savīta un veidota ar rokām. Vara laika gaitā attīstīs dabīgu patīnu, vai to var pulēt, lai saglabātu spilgtu apdari. Aproce ir regulējama un der lielākajai daļai plaukstas izmēru. Vara tradicionāli tiek valkāta tās potenciālo labvēlīgo īpašību dēļ."
       },
       "rose-quartz-studs": {
@@ -335,7 +335,7 @@
       },
       "layered-chain-necklace": {
         "name": "Bunny's flowers",
-        "description": "Krāšna rokassprādze ar metāla riņķīšiem, pērlēm un krāsainiem charmiem",
+        "description": "Krāšna rokassprādze ar metāla riņķīšiem, pērlēm un krāsainiem kuloniem",
         "longDescription": "Šī modernā daudzslāņu kaklarota demonstrē divas dažādas ķēdes - vienu 14k zelta pildījumā un otru sudraba - radot bezpūlīgu jauktā metāla izskatu. Ķēdes ir pakāpeniski pagarinātas (16 un 18 collas), lai radītu perfektu slāņošanu. Katrai ķēdei ir individuāli slēdzēji daudzpusībai."
       },
       "infinity-bracelet": {
@@ -346,18 +346,18 @@
       "garden-bunny-earring-set": {
         "name": "Bunny blossom",
         "description": "Divu pāru auskari ar zaķa un ziedu motīviem",
-        "longDescription": "Šis piekariņš ir ideāli piemērots īpašiem momentiem vai dienām, kad vēlies nedaudz krāšņumu pie savas somas vai aksesuāra. šis piekariņš dod prieku skatoties uz tā krāsainajiem charmiem. Piekariņu var iegādāties 3 krāsās - sarkanā, zilā un rozā."
+        "longDescription": "Šis piekariņš ir ideāli piemērots īpašiem momentiem vai dienām, kad vēlies nedaudz krāšņumu pie savas somas vai aksesuāra. šis piekariņš dod prieku skatoties uz tā krāsainajiem kuloniem. Piekariņu var iegādāties 3 krāsās - sarkanā, zilā un rozā."
       },
 
       "garden-bunny-charm-bracelet": {
         "name": "Daisy lotus",
         "description": "Smalka rokassprādze ar zelta detaļām un margrietiņu ziediem",
-        "longDescription": "Šis jaukais auskaru komplekts ietver divus pārus - vienu ar smalkiem zaķa motīviem un otru ar krāsainiem ziedu charmiem. Abi pāri ir izgatavoti no 14k zelta pildījuma un ir ideāli piemēroti slāņošanai vai valkāšanai atsevišķi. Zaķa auskari ir aptuveni 1cm gari, bet ziedu charmi ir aptuveni 0.5cm."
+        "longDescription": "Šis jaukais auskaru komplekts ietver divus pārus - vienu ar smalkiem zaķa motīviem un otru ar krāsainiem ziedu kuloniem. Abi pāri ir izgatavoti no 14k zelta pildījuma un ir ideāli piemēroti slāņošanai vai valkāšanai atsevišķi. Zaķa auskari ir aptuveni 1cm gari, bet ziedu kuloni ir aptuveni 0.5cm."
       },
       "garden-bunny-pearl-earcuff": {
         "name": "Bunny's flower garland",
-        "description": "Krāšn rokassprādze ar metāla riņķīšiem, pērlēm un krāsainiem charmiem",
-        "longDescription": "Šis jaukais auskaru komplekts ietver divus pārus - vienu ar smalkiem zaķa motīviem un otru ar krāsainiem ziedu charmiem. Abi pāri ir izgatavoti no 14k zelta pildījuma un ir ideāli piemēroti slāņošanai vai valkāšanai atsevišķi. Zaķa auskari ir aptuveni 1cm gari, bet ziedu charmi ir aptuveni 0.5cm."
+        "description": "Krāšn rokassprādze ar metāla riņķīšiem, pērlēm un krāsainiem kuloniem",
+        "longDescription": "Šis jaukais auskaru komplekts ietver divus pārus - vienu ar smalkiem zaķa motīviem un otru ar krāsainiem ziedu kuloniem. Abi pāri ir izgatavoti no 14k zelta pildījuma un ir ideāli piemēroti slāņošanai vai valkāšanai atsevišķi. Zaķa auskari ir aptuveni 1cm gari, bet ziedu kuloni ir aptuveni 0.5cm."
       },
       "enchanted-crown-earrings": {
         "name": "Jellyfish princess",
