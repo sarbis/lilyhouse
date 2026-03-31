@@ -86,17 +86,6 @@
       "featured": false
     },
     {
-      "id": "twisted-copper-bracelet",
-      "category": "category4",
-      "price": "€3,00",
-      "image": "images/products/spring-princess.jpg",
-      "images": [
-        "images/products/spring-princess.jpg"
-        
-      ],
-      "featured": false
-    },
-    {
       "id": "layered-chain-necklace",
       "category": "category1",
       "price": "€3,00",
