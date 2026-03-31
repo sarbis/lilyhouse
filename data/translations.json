@@ -174,12 +174,22 @@
       },
       "enchanted-crown-earrings": {
         "name": "Jellyfish princess",
-        "description": "Delicate crown-shaped earrings with sparkling details",
+        "description": "cute necklace with metal details, pearls and colourful charms",
         "longDescription": "These enchanting earrings feature delicate crown charms adorned with tiny crystals. Perfect for adding a touch of royalty to any outfit. Available in gold, silver, and rose gold finishes."
       },
       "apple-fairy-twins-bracelet": {
         "name": "Spiral spring lotus",
         "description": "Delicate spiral bracelet with gold details, flowers and spring coloured diamonds",
+        "longDescription": "A simple yet meaningful bracelet featuring a hand-formed apple fairy twins charm on a delicate 14k gold-filled chain. The bracelet measures 7 inches with a 1-inch extender to fit most wrist sizes. The apple fairy twins charm is approximately 15mm wide. Perfect for daily wear and as a symbol of eternal love or friendship."
+      },
+      "bunny-flying-friend-earrings": {
+        "name": "Bunny's flying friend",
+        "description": "cute necklace with metal details, pearls and colourful charms",
+        "longDescription": "A simple yet meaningful bracelet featuring a hand-formed apple fairy twins charm on a delicate 14k gold-filled chain. The bracelet measures 7 inches with a 1-inch extender to fit most wrist sizes. The apple fairy twins charm is approximately 15mm wide. Perfect for daily wear and as a symbol of eternal love or friendship."
+      },
+      "raindrop-garden-necklace": {
+        "name": "The raindrop garden",
+        "description": "cute necklace with metal details, pearls and colourful charms",
         "longDescription": "A simple yet meaningful bracelet featuring a hand-formed apple fairy twins charm on a delicate 14k gold-filled chain. The bracelet measures 7 inches with a 1-inch extender to fit most wrist sizes. The apple fairy twins charm is approximately 15mm wide. Perfect for daily wear and as a symbol of eternal love or friendship."
       }
     }
@@ -361,22 +371,22 @@
       },
       "enchanted-crown-earrings": {
         "name": "Jellyfish princess",
-        "description": "Smalki kronas formas auskari ar mirdzošām detaļām",
+        "description": "Krāšna kaklarota ar metāla riņķīšiem, pērlēm un krāsainiem kuloniem",
         "longDescription": "Šie apburošie auskari demonstrē smalkus kronas piekarinus, kas rotāti ar sīkiem kristāliem. Perfekti, lai pievienotu karalisku pieskārienu jebkuram tērpam. Pieejami zelta, sudraba un rozā zelta apdarēs."
       },
       "bunny-flying-friend-earrings": {
         "name": "Bunny's flying friend",
-        "description": "Smalki kronas formas auskari ar mirdzošām detaļām",
+        "description": "Krāšna kaklarota ar metāla riņķīšiem, pērlēm un krāsainiem kuloniem",
         "longDescription": "Šie apburošie auskari demonstrē smalkus kronas piekarinus, kas rotāti ar sīkiem kristāliem. Perfekti, lai pievienotu karalisku pieskārienu jebkuram tērpam. Pieejami zelta, sudraba un rozā zelta apdarēs."
       },
       "raindrop-garden-necklace": {
         "name": "The raindrop garden",
-        "description": "Krāšn rokassprādze ar metāla riņķīšiem, pērlēm un krāsainiem kuloniem",
+        "description": "Krāšna kaklarota ar metāla riņķīšiem, pērlēm un krāsainiem kuloniem",
         "longDescription": "Šis jaukais auskaru komplekts ietver divus pārus - vienu ar smalkiem zaķa motīviem un otru ar krāsainiem ziedu kuloniem. Abi pāri ir izgatavoti no 14k zelta pildījuma un ir ideāli piemēroti slāņošanai vai valkāšanai atsevišķi. Zaķa auskari ir aptuveni 1cm gari, bet ziedu kuloni ir aptuveni 0.5cm."
       },
       "apple-fairy-twins-bracelet": {
         "name": "Spiral spring lotus",
-        "description": "Krāšn rokassprādze ar metāla riņķīšiem, pērlēm un krāsainiem kuloniem",
+        "description": "Smalka spirālveida rokassprādze ar zelta detaļām, puķītēm un pavasara krāsu dimantiņiem",
         "longDescription": "Šis jaukais auskaru komplekts ietver divus pārus - vienu ar smalkiem zaķa motīviem un otru ar krāsainiem ziedu kuloniem. Abi pāri ir izgatavoti no 14k zelta pildījuma un ir ideāli piemēroti slāņošanai vai valkāšanai atsevišķi. Zaķa auskari ir aptuveni 1cm gari, bet ziedu kuloni ir aptuveni 0.5cm."
       }
     }
