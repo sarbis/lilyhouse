@@ -56,15 +56,11 @@
     "colors": {
       "red": "red",
       "pink": "pink",
-      "blue": "blue",
-      "Gold": "Gold",
-      "Silver": "Silver",
-      "Rose Gold": "Rose Gold",
-      "Mint": "Mint"
+      "blue": "blue"
     },
     "materials": {
-      "With metals": "With metals",
-      "On a thread": "On a thread"
+      "metals": "With metals",
+      "thread": "On a thread"
     },
     "about": {
       "title": "Our Story",
@@ -244,18 +240,13 @@
       "form_note": "Mēs atbildēsim 24 stundu laikā"
     },
     "colors": {
-      "red": "sarkans",
+      "red": "sarkana",
       "pink": "rozā",
-      "blue": "zils",
-      "Gold": "zelta",
-      "Silver": "sudraba",
-      "Rose Gold": "rozā zelts",
-      "Soft Blue": "maigs zils",
-      "Mint": "piparmētra"
+      "blue": "zila"
     },
     "materials": {
-      "With metals": "ar metāliem",
-      "On a thread": "uz diega"
+      "metals": "ar metāliem",
+      "thread": "uz diega"
     },
     "about": {
       "title": "Mūsu stāsts",

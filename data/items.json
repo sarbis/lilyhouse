@@ -15,8 +15,8 @@
         { "name": "blue", "value": "#A9D2E6" }
       ],
       "materialOptions": [
-        { "name": "With metals", "value": "#C0C0C0" },
-        { "name": "On a thread", "value": "#8B4513" }
+        { "name": "metals", "value": "#C0C0C0" },
+        { "name": "thread", "value": "#8B4513" }
       ],
       "featured": true
     },
@@ -30,9 +30,9 @@
         "images/products/bunny_blossom2.jpg"
       ],
       "colorOptions": [
-        { "name": "Blue", "value": "#A9D2E6" },
-        { "name": "Pink", "value": "#F6B3C8" },
-        { "name": "Red", "value": "#FF0000" }
+        { "name": "blue", "value": "#A9D2E6" },
+        { "name": "pink", "value": "#F6B3C8" },
+        { "name": "red", "value": "#FF0000" }
       ],
       "featured": false
     },
@@ -95,8 +95,8 @@
         "images/products/bunnys_flowers2.jpg"
       ],
       "materialOptions": [
-        { "name": "With metals", "value": "#C0C0C0" },
-        { "name": "On a thread", "value": "#8B4513" }
+        { "name": "metals", "value": "#C0C0C0" },
+        { "name": "thread", "value": "#8B4513" }
       ],
       "featured": false
     },
@@ -109,10 +109,6 @@
         "images/products/ocean_princess.jpg"
         
       ],
-      "materialOptions": [
-        { "name": "With metals", "value": "#C0C0C0" },
-        { "name": "On a thread", "value": "#8B4513" }
-      ],
       "featured": false
     },
     {
@@ -123,11 +119,6 @@
       "images": [
         "images/products/jellyfish_princess.jpg"
         
-      ],
-      "colorOptions": [
-        { "name": "Gold", "value": "#FFD700" },
-        { "name": "Silver", "value": "#C0C0C0" },
-        { "name": "Rose Gold", "value": "#E6B2A4" }
       ],
       "featured": false
     },
