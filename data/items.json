@@ -114,6 +114,10 @@
         "images/products/bunny's flowers1.jpg",
         "images/products/bunny's flowers2.jpg"
       ],
+      "materialOptions": [
+        { "name": "With metals", "value": "#C0C0C0" },
+        { "name": "On a thread", "value": "#8B4513" }
+      ],
       "featured": false
     },
     {
