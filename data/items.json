@@ -57,9 +57,9 @@
         "images/products/bunny's flower garland2.jpg"
       ],
       "colorOptions": [
-        { "name": "Rose Gold", "value": "#E6B2A4" },
-        { "name": "Soft Blue", "value": "#A8CEE4" },
-        { "name": "Mint", "value": "#9CD7B1" }
+        { "name": "pink", "value": "#F6B3C8" },
+        { "name": "red", "value": "#FF0000" },
+        { "name": "blue", "value": "#A9D2E6" }
       ],
       "featured": false
     },
